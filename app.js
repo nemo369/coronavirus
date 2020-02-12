@@ -27,6 +27,6 @@ app.get(`/runCron`, async (req, res, next) => {
   runCron()
 });
 
-app.listen(2093, () => {
-  console.log(`Example App running on port http://localhost:2093`);
+app.listen(process.env.PORT || 1988, () => {
+  console.log('Node app is working!');
 });
