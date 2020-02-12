@@ -1,3 +1,3 @@
-# Scrape City
+# Corona Virus
 
-The code from my youtube vid on scraping.
+count how many pepole stil alive
