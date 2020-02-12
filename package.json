@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon -r esm app.js --ignore db.json"
+    "dev": "nodemon -r esm app.js --ignore db.json",
+    "start": "node -r esm app.js --ignore db.json"
   },
   "author": "",
   "license": "ISC",
