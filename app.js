@@ -26,7 +26,6 @@ app.get(`/data`, async (req, res, next) => {
 app.get(`/runCron`, async (req, res, next) => {
   runCron();
   res.json('scrpae again');
-
 });
 
 app.listen(process.env.PORT || 3000, function () {
