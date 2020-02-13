@@ -16,18 +16,25 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -0.2px;
+  font-size: 16px;
   text-align: center;
   color: #09293c;
+  color: #babecc;
   margin-top: 60px;
   border-radius: 50px;
   height: 100vh;
-  background: #94a9b4;
+  background-color: #ebecf0;
+  font-weight: 400;
 }
 body {
-  background: #94a9b4;
+  background-color: #ebecf0;
+  font-family: "Montserrat", sans-serif;
+}
+* {
+  font-weight: 400;
 }
 </style>
