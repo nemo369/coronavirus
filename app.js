@@ -19,8 +19,8 @@ app.get(`/scrape`, async (req, res, next) => {
 
 app.get(`/data`, async (req, res, next) => {
   // get the scrape data
-  const { coronaCases, coronaDeaths, coronaRecovered, ppl } = db.value();
-  res.json({ corona: { coronaCases, coronaDeaths, coronaRecovered }, ppl });
+  const { coronaCases, coronaDeaths, coronaRecovered, pplCount } = db.value();
+  res.json({ corona: { coronaCases, coronaDeaths, coronaRecovered }, pplAlive: pplCount });
 });
 
 app.get(`/runCron`, async (req, res, next) => {
