@@ -26,7 +26,7 @@ export default {
   color: #babecc;
   margin-top: 60px;
   border-radius: 50px;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #ebecf0;
   font-weight: 400;
 }
