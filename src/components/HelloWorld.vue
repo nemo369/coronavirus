@@ -204,14 +204,18 @@ a {
   padding: 16px;
   background-color: #ebecf0;
   text-shadow: 1px 1px 0 #fff;
+  flex: 1 0 auto;
 }
 .flex {
   margin-top: 5vh;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .flex svg {
   width: 100%;
   display: block;
+  max-width: 100px;
+  margin: auto;
 }
 </style>
