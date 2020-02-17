@@ -6,7 +6,7 @@
     },
     {
       "date": 1581517620724,
-      "count": 45204
+      "count": 70204
     }
   ],
   "coronaDeaths": [
@@ -16,17 +16,17 @@
     },
     {
       "date": 1581517620726,
-      "count": 1118
+      "count": 1618
     }
   ],
   "coronaRecovered": [
     {
       "date": 1581517532692,
-      "count": 4847
+      "count": 6847
     },
     {
       "date": 1581517620727,
-      "count": 4847
+      "count": 6847
     }
   ],
   "pplCount": [

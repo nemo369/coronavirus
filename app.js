@@ -24,10 +24,10 @@ app.get(`/data`, async (req, res, next) => {
 });
 
 app.get(`/runCron`, async (req, res, next) => {
-  runCron();
-  res.json('scrpae again');
+  const deaths = await runCron();
+  res.json(`scrpae again --- ${deaths}`);
 });
 
-app.listen(process.env.PORT || 3000, function () {
+app.listen(process.env.PORT || 1111, function () {
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
